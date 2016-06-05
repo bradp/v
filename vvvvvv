@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-if [[ $(which vvvvvv) ]]; then
+if [[ $(which vv) ]]; then
 	if [ $(( $RANDOM % 3 )) -eq 0 ]; then
 		vv $@
 	fi
